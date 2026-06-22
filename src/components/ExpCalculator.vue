@@ -95,7 +95,8 @@ const LUXCAVATION_INFO = computed(() => {
     { level: 5, stage: "Stage 5", moduleCost: 3, clearExp: 12200, xpPerModule: 4066.7 },
     { level: 6, stage: "Stage 6", moduleCost: 3, clearExp: 14400, xpPerModule: 4800 },
     { level: 7, stage: "Stage 7", moduleCost: 3, clearExp: 16800, xpPerModule: 5600 },
-    { level: 8, stage: "Stage 8", moduleCost: 3, clearExp: 20800, xpPerModule: 6933.3 }
+    { level: 8, stage: "Stage 8", moduleCost: 3, clearExp: 20800, xpPerModule: 6933.3 },
+    { level: 9, stage: "Stage 9", moduleCost: 3, clearExp: 25200, xpPerModule: 8400 }
   ];
 });
 
