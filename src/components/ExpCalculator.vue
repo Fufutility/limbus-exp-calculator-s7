@@ -17,7 +17,8 @@ const CANTO_CAPS = [
   { canto: 5, levelCap: 50, luxUnlocked: 5 },
   { canto: 6, levelCap: 50, luxUnlocked: 6 },
   { canto: 7, levelCap: 55, luxUnlocked: 7 },
-  { canto: 8, levelCap: 55, luxUnlocked: 8 }
+  { canto: 8, levelCap: 55, luxUnlocked: 8 },
+  { canto: 9, levelCap: 60, luxUnlocked: 9 }
 ]
 
 const expData = ref([]);
@@ -195,7 +196,7 @@ const decrement = (property, min = 0, step = 1) => {
 }
 
 const incrementCurrentLevel = () => {
-  if (form.currentLevel < 55 && form.currentLevel < form.targetLevel) {
+  if (form.currentLevel < 60 && form.currentLevel < form.targetLevel) {
     form.currentLevel++
     validateCurrentLevel()
   }
